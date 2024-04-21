@@ -3,7 +3,7 @@ package kz.example.tacocloud.controller;
 import kz.example.tacocloud.model.Ingredient;
 import kz.example.tacocloud.model.Taco;
 import kz.example.tacocloud.model.TacoOrder;
-import kz.example.tacocloud.model.Type;
+import kz.example.tacocloud.model.Ingredient.Type;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
