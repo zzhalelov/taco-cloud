@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Taco Cloud</title>
+    <style>
+        .image {
+            transform: scale(0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
 </head>
 <body>
 <h1>Welcome to...</h1>
-<img th:src="@{/images/TacoCloud.png}"/>
+<img th:src="@{/images/TacoCloud.png}" class="image"/>
 </body>
 </html>
